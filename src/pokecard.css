@@ -1,0 +1,17 @@
+
+.pokemap {
+    padding: 0px 50px 50px 50px;
+}
+
+.pokeCard {
+
+    background-color: rgb(177, 174, 174);
+    padding: 50px;
+    border-radius: 20px;
+    margin: 50px;
+    float: left;
+}
+
+.poke-name {
+    color: blue;
+}

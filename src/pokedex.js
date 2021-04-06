@@ -16,11 +16,12 @@ function Pokedex(props) {
   });
   return (
     <div className="pokedex">
-      <h1>Pokedex</h1>
+      <div className="pokedex-name"><h1>Pokedex</h1></div>
       <div className="pokemap">{pokemap}</div>
     </div>
   );
 }
+
 Pokedex.defaultProps = {
   pokemons: [
     { id: 4, name: "Charmander", type: "fire", base_experience: 62 },
